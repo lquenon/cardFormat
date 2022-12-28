@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- 
+    Developer           : Laurent Quenon
+    Project Name        : Portfolio Website
+    Description         : Site web de présentation des compétences
+                        la présentation sera axée sur le format carte
+    Project start Date  : 27/12/2022
+ -->
+<html lang="fr">
+<!-- 
+    Dans la balise head on retrouvera les métadonnées (données sur les données)
+    tout ce qui se trouve dans head n'est pas destiné à l'affichage
+    SAUF title
+    cependant le contenu de title ne s'affiche pas dans la page, mais dans les onglets
+    du navigateur
+ -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laurent Quenon's Portfolio</title>
+</head>
+<!-- 
+    dans la balise body on retrouve le contenu de la page web
+    ce qui est destiné a être affiché à l'utilisateur
+ -->
+<body>
+    <!-- les titres sont inclus dans les balises h1 à h6
+        le chiffre suivant le h détermine le niveau (titre, sous-titre, ...)
+        Pour une structure la plus correcte possible, il ne devrait pas
+        y avoir de h2 sans h1, ni de h3 sans h2 et ainsi de suite.
+        La taille de police bien que différente entre les différents h
+        ne doit pas être gérée depuis le html mais depuis le CSS
+    -->
+    <h1>Laurent Quenon</h1>
+    <h2>Portfolio</h2>
+    <!-- main est une balise qui fait partie des balises du "Web sémantique"
+        destinées à donner un sens aux éléments qu'elles contiennent.
+        Pour ce qui est de main, elle devrait contenir le contenu principal.  
+        Ici elle va contenir l'ensemble des éléments "card" de la page   
+    -->
+    <main class="cardContainer">
+        <!-- 
+            div est une balise permettant de définir un "conteneur" pour d'autres éléments
+            mais sans pour autant donner un sens sématique à cette subdivision.
+            Ici chaque div sera une carte, après application du CSS et ce grâce à sa classe 'card'
+         -->
+        <div class="card">Card 1</div>
+        <div class="card">Card 2</div>
+        <div class="card">Card 3</div>
+        <div class="card">Card 4</div>
+        <div class="card">Card 5</div>
+        <div class="card">Card 6</div>
+        <div class="card">Card 7</div>
+        <div class="card">Card 8</div>
+        <div class="card">Card 9</div>
+        <div class="card">Card 10</div>
+        <div class="card">Card 11</div>
+    </main>
+</body>
+</html>
